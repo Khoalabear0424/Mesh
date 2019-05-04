@@ -6,3 +6,5 @@
 
 ## Dependencies
 - Express, express-validator, bcryptjs, config, gravatar, jsonwebtoken, mongoose, request
+
+- nodemon, concurrently
