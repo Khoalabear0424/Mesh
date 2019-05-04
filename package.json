@@ -1,0 +1,31 @@
+{
+  "name": "Mesh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khoalabear0424/Mesh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khoalabear0424/Mesh/issues"
+  },
+  "homepage": "https://github.com/Khoalabear0424/Mesh#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "config": "^3.1.0",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.5",
+    "request": "^2.88.0"
+  }
+}
