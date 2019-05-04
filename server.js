@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
+const connectDB = require('./config/db');
 
-app.get('/', (req, res) => {
-    res.send('HELLO');
-})
+//Connect database
+connectDB();
 
 const PORT = process.env.PORT || 5000;
 
