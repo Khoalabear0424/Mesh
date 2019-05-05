@@ -16,6 +16,14 @@ router.post('/', [
             return res.status(400).json({ errors: errors.array() });
         }
 
+        // See if user exists
+
+        // Get users gravatar
+
+        // Encrypt password
+
+        // Return jsonwebtoken
+
         res.send('User route');
     });
 
