@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb://localhost:27017/mesh_db"
+    "mongoURI": "mongodb://localhost:27017/mesh_db",
+    "jwtSecret": "mysecrettoken"
 }
